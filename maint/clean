@@ -3,4 +3,4 @@
 rm -rf autom4te.cache/ configure aclocal.m4 Makefile.in compile config.h.in depcomp doc/Makefile.in examples/Makefile.in install-sh man/Makefile.in missing src/Makefile.in
 rm -rf Makefile config.h config.log config.status doc/Makefile examples/Makefile man/Makefile src/.deps/ src/Makefile src/palx stamp-h1
 rm -rf config.guess *~ config.sub libtool ltmain.sh src/.libs/ src/*.la src/*.lo src/*.o
-rm -rf libpalindrome-1.3.4.tar.gz libpalindrome-1.3.4
+rm -rf libpalindrome-1.3.4.tar.gz libpalindrome-1.3.4 m4/

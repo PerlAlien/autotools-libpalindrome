@@ -7,6 +7,8 @@ AM_INIT_AUTOMAKE
 LT_INIT
 AC_CONFIG_SRCDIR([examples/01example.c])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_FILES([src/libpalindrome.pc])
 
 # Checks for programs.
 AC_PROG_CC
