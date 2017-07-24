@@ -1,0 +1,12 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use autodie qw( :all );
+use Alien::Autotools;
+use Env qw( @PATH @ACLOCAL_PATH );
+
+unshift @PATH, Alien::Autotools->bin_dir;
+unshift @ACLOCAL_PATH, Alien::Autotools->aclocal_dir;
+
+system @ARGV;

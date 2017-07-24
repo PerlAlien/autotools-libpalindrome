@@ -2,3 +2,4 @@
 
 cd man
 pod2man libpalindrome.3.pod > libpalindrome.3
+pod2man palx.1.pod > palx.1
