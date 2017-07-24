@@ -11,3 +11,6 @@ include_HEADERS = libpalindrome.h
 bin_PROGRAMS = palx
 palx_SOURCES = main.c libpalindrome.h
 palx_LDADD   = libpalindrome.la
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = libpalindrome.pc
