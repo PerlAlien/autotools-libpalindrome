@@ -4,6 +4,7 @@
 AC_PREREQ([2.69])
 AC_INIT([libpalindrome], [1.3.4], [devnull@wdlabs.com])
 AM_INIT_AUTOMAKE
+LT_INIT
 AC_CONFIG_SRCDIR([examples/01example.c])
 AC_CONFIG_HEADERS([config.h])
 

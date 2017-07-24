@@ -20,7 +20,15 @@
 /man/Makefile
 /src/.deps
 /src/Makefile
-/src/main.o
-/src/palindrome.o
 /src/palx
 /stamp-h1
+*.swp
+/src/*.la
+/src/*.lo
+/src/*.o
+/config.guess
+/config.h.in~
+/config.sub
+/libtool
+/ltmain.sh
+/src/.libs/
