@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd man
+pod2man libpalindrome.3.pod > libpalindrome.3
