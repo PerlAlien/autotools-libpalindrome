@@ -1,0 +1,7 @@
+#!/bin/sh
+
+./maint/clean
+./maint/regen
+./maint/autohell autoreconf -vfi
+./configure
+./maint/autohell make dist
