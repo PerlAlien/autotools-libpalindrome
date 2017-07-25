@@ -12,6 +12,7 @@ script:
   - ./maint/regen
   - ./maint/autohell autoreconf -vfi
   - ./configure
+  - make
   - prove -v t
 
 env:
