@@ -21,4 +21,7 @@ is is_palindrome('foof'), 1, 'foof x 2';
 is is_palindrome('racecar'), 1, 'racecar';
 is is_palindrome('Was it a car or a cat I saw?'), 1, 'Was it a car or a cat I saw?';
 
+is is_palindrome('racecar'), 1, 'racecar x 2';
+is is_palindrome('Was it a car or a cat I saw?'), 1, 'Was it a car or a cat I saw? x 2';
+
 done_testing;
