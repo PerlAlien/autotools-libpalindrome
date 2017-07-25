@@ -12,3 +12,7 @@ script:
   - ./maint/autohell autoreconf -vfi
   - ./configure
   - prove -v t
+
+env:
+  global:
+    - ALIEN_BASE_NO_ABMB=1
