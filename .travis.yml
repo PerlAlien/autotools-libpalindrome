@@ -5,6 +5,7 @@ perl:
   - "5.26"
 
 install:
+  - maint/travis-install-alienautotools
   - cpanm Test2::V0 FFI::Platypus Path::Tiny Alien::Autotools IPC::System::Simple
 
 script:
