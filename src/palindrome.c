@@ -25,7 +25,8 @@ copy_reverse(char *buffer, const char *original)
   buffer = 0;
 }
 
-int is_palindrome(const char *something)
+int
+is_palindrome(const char *something)
 {
   char *copy1;
   char *copy2;
