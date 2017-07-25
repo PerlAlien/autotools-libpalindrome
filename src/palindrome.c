@@ -22,7 +22,7 @@ copy_reverse(char *buffer, const char *original)
   int i;
   for(i=strlen(original)-1; i >= 0; i--)
     *(buffer++) = original[i];
-  buffer = 0;
+  *buffer = 0;
 }
 
 int
