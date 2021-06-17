@@ -2,6 +2,6 @@
 
 ./maint/clean
 ./maint/regen
-./maint/autohell autoreconf -vfi
+./maint/autotools-exec autoreconf -vfi
 ./configure
-./maint/autohell make dist
+./maint/autotools-exec make dist

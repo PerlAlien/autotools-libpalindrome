@@ -9,4 +9,12 @@ use Env qw( @PATH @ACLOCAL_PATH );
 unshift @PATH, Alien::Autotools->bin_dir;
 unshift @ACLOCAL_PATH, Alien::Autotools->aclocal_dir;
 
-system @ARGV;
+if(@ARGV)
+{
+  system @ARGV;
+}
+else
+{
+  print STDERR "usage: $0 command [ ... ]\n";
+  exit 2;
+}
