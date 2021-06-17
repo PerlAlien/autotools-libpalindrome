@@ -4,7 +4,7 @@ libdir=@libdir@
 includedir=@includedir@
 
 Name: libpalindrome
-Description: A toy autohell library that can check for palindromes
+Description: A toy autotools library that can check for palindromes
 Version: @VERSION@
 Cflags: -I${includedir}
 Libs: -L${libdir} -lpalindrome
